@@ -1,0 +1,35 @@
+
+
+<html>
+<body>
+<head>
+<body background="background.jpg">
+<center><h1><p style="color:red;">Compute your KD Ratio</p></h1></center>
+<center><h1 id="answer"> </h1>
+
+<center><h2><p style="color:red;">Kills :<input type="text" id="Kills"></p></h2>
+
+<h2><p style="color:red;">GPO :<input type="text" id="games"></p></h2>
+
+<button onclick="calculate()">Calculate</button></center>
+
+<script>
+
+function calculate()
+{
+	var field1=document.getElementById("Kills").value;
+	var field2=document.getElementById("games").value;
+
+	var result=parseFloat(field1)/parseFloat(field2);
+	
+	if(!isNaN(result))
+	{
+	document.getElementById("answer").innerHTML="Your KD Ratio is " +result;
+	}
+}
+</script>
+<center><h1><p style="color:red;">What is KD?</p></h1>
+<h1><p style="color:red;">KD is your average kill per game.</p></h1>
+<h1><p style="color:red;">GPO is Games Played Overall<p></center></h1>
+</body>
+</html>

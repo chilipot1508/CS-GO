@@ -1,0 +1,82 @@
+
+<html>
+<head>
+<body>
+<body bgcolor="#D3D3D3">
+<center><p id="greeting"></p></center>
+<script>
+var d=new Date();
+
+var day=new Array();
+day[0]="Sunday";
+day[1]="Monday";
+day[2]="Tuesday";
+day[3]="Wednesday";
+day[4]="Thursday";
+day[5]="Friday";
+day[6]="Saturday";
+
+var date=day[d.getDay()];
+
+var time=d.getHours();
+
+	if (time<12)
+	{
+	document.getElementById("greeting").innerHTML="Goodmorning today is "+date+"!";
+	}
+	else if (time<18)
+	{
+	document.getElementById("greeting").innerHTML="Good Afternoon today is "+date+"!";
+	}
+	else
+	{
+	document.getElementById("greeting").innerHTML="Have a nice day today is "+date+"!";
+	}
+</script>
+<center><img src="CS3.png"></center>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<body>
+<table style="width:100%">
+<center>
+<tr>
+<th><a href="index.html">Home</a></th>
+<th><a href="About.html">About Us</a></th>
+<th><a href="Guns.html">Guns</a></th>
+<th><a href="Maps.html">Maps</a></th>
+<th><a href="Clips.html">Clips</a></center></th>
+<th><a href="Store.html">Store</a></center></th>
+</tr>
+</table>
+
+<center><video width="800" height="500" controls>
+<source src="CSGO.mp4" type="video/mp4"></center>
+</video>
+
+
+
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 5%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+</style>
+<body>
+</body>
+
+</div>
+</body>
+</html>

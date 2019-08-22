@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The CS:GO Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+                <ul>
+				<body bgcolor="#D3D3D3">
+<center><p id="greeting"></p></center>
+<script>
+var d=new Date();
+
+var day=new Array();
+day[0]="Sunday";
+day[1]="Monday";
+day[2]="Tuesday";
+day[3]="Wednesday";
+day[4]="Thursday";
+day[5]="Friday";
+day[6]="Saturday";
+
+var date=day[d.getDay()];
+
+var time=d.getHours();
+
+	if (time<12)
+	{
+	document.getElementById("greeting").innerHTML="Goodmorning today is "+date+"!";
+	}
+	else if (time<18)
+	{
+	document.getElementById("greeting").innerHTML="Good Afternoon today is "+date+"!";
+	}
+	else
+	{
+	document.getElementById("greeting").innerHTML="Have a nice day today is "+date+"!";
+	}
+
+</script>
+
+<center><img src="CS3.png"></center>
+
+<h1><marquee behavior="scroll" direction="left">Welcome To Counter-Strike: Global Offensive (CS: GO) Item Shop ! </marquee></h>
+
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+				<center>
+<th><a href="index.html">Home</a></th>
+<th><a href="About.html">About Us</a></th>
+<th><a href="Guns.html">Guns</a></th>
+<th><a href="Maps.html">Maps</a></th>
+<th><a href="Clips.html">Clips</a></center></th>
+<th><a href="Store.html">Store</a></center></th>
+
+</center>
+                </ul>
+            </nav>
+            <h1 class="band-name band-name-large">CS:GO GUNS</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">RIFLE</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Ak-47</span>
+                    <img class="shop-item-image" src="5.jpg" alt="Ak-47" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$12.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">FAMAS</span>
+                    <img class="shop-item-image" src="4.png" alt="Famas" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$14.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">MP5-S</span>
+                    <img class="shop-item-image" src="6.jpg" alt="Mp5-s" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">AUG</span>
+                    <img class="shop-item-image" src="2.jpg" alt="Aug" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">PISTOL</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">USP-S</span>
+                    <img class="shop-item-image" src="1.png" alt="Usp-s" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">CZ75-Auto</span>
+                    <img class="shop-item-image" src="3.png" alt="Cz75-auto" width="100" height="100>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">CS:GO</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com" target="_blank">
+                            <img src="11.png" alt="Youtube" width="100" height="100>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blank">
+                            <img src="13.png" alt="Spotify" width="100" height="100>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="12.png" alt="Facebook" width="100" height="100>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
